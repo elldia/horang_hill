@@ -146,3 +146,33 @@
     width:78px; height:52px; border-radius:6px;
     font-size:0.88rem;
 }
+/* ===================================2. 양림동 호랑가시나무 소개 */
+#wrap main #intro_guest_bg {
+    background:#F5F5F5;
+}
+#wrap main #intro_guest_bg #intro_guest {}
+#wrap main #intro_guest_bg #intro_guest h1 {}
+#wrap main #intro_guest_bg #intro_guest p {}/* 공통 */
+#wrap main #intro_guest_bg #intro_guest h1+p {}
+#wrap main #intro_guest_bg #intro_guest p:last-child {}
+#wrap main #intro_guest_bg #intro_guest p:last-child img {width:100%;}
+/* ==============================================3. 관광지 소개 */
+#wrap main #intro_tourist {}
+#wrap main #intro_tourist h1 {}
+#wrap main #intro_tourist p {}
+#wrap main #intro_tourist .contents {
+}
+#wrap main #intro_tourist .contents li {
+}
+#wrap main #intro_tourist .contents li a {
+}
+#wrap main #intro_tourist .contents li a img {}
+#wrap main #intro_tourist .contents li a:hover img {}
+#wrap main #intro_tourist .contents li h2 {
+}
+#wrap main #intro_tourist .more {
+}
+/* 
+가운데 
+text-align 부모한테 명령 -> 자식, 자손 인라인 적용
+*/
